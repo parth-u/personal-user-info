@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzgs4d5N_OYYoc2Z7N7EshZVMS_EtP8sS7Pw&usqp=CAU");
+  background-image: cover;
+  height: 100vh;  
 }
 
 .App-logo {
@@ -7,11 +10,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +26,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
