@@ -31,6 +31,7 @@
   object-fit:cover;
   width:100%;
   height:100vh;
+  filter: blur(3px);
 }
 
 .B3{
@@ -44,7 +45,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #010102;
+  background-color: #ffffff;
   max-height: 530px;
 width:400px;
   overflow: hidden;
@@ -76,7 +77,7 @@ width:400px;
 }
 
 label {
-  color: #fff;
+  color: #000000;
   font-size: 2rem;
   justify-content: center;
   display: flex;
@@ -85,7 +86,7 @@ label {
   transition: .5s ease-in-out;
 }
 
-.input {
+.input1 {
   width: 95%;
   height: 40px;
   background: #e0dede;
@@ -97,14 +98,14 @@ label {
 
 /*Register*/
 .register {
-  background: #eee;
+  background:  #450ab4;
   border-radius: 60% / 10%;
   transform: translateY(5%);
   transition: .8s ease-in-out;
 }
 
 .register label {
-  color: #080808;
+  color: #ffffff;
   transform: scale(.6);
 }
 

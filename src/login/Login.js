@@ -25,20 +25,20 @@ const Login = () => {
                     Log in
                   </label>
                   <input
-                    class="input"
+                    class="input1"
                     type="email"
                     name="email"
                     placeholder="Email"
                     required=""
                   />
                   <input
-                    class="input"
+                    class="input1"
                     type="password"
                     name="pswd"
                     placeholder="Password"
                     required=""
                   />
-                  <button>Log in</button>
+                  <button onClick={() => navigate("/home")}> Log in</button>
                 </form>
               </div>
 
@@ -48,21 +48,21 @@ const Login = () => {
                     Register
                   </label>
                   <input
-                    class="input"
+                    class="input1"
                     type="text"
                     name="txt"
                     placeholder="Username"
                     required=""
                   />
                   <input
-                    class="input"
+                    class="input1"
                     type="email"
                     name="email"
                     placeholder="Email"
                     required=""
                   />
                   <input
-                    class="input"
+                    class="input1"
                     type="password"
                     name="pswd"
                     placeholder="Password"
