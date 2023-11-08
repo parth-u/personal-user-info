@@ -16,12 +16,12 @@ function Navbar() {
       <Stack className="topsign" spacing={2} direction="row">
         <Avatar className="topavatar" src={prof} />
         <button
-          onClick={() => navigate("/home")}
           className="topbutton"
+          onClick={() => navigate("/")}
           size="small"
           variant="contained"
         >
-          SignUp
+          Login
         </button>
       </Stack>
     </div>
